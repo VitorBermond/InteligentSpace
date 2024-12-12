@@ -22,6 +22,12 @@ Esse repositório possui dois algoritmos que desempenham as seguintes funções:
    - Solicita o usuário o ip para se conectar com um Broker RabbitMQ previamente ativo;
    - Cria um loop onde o usuário consome mensagens de um tópico. O algoritmo solicita o nome do tópico. As mensagens serão consumidas do tópico "Aluno.(NomeDoAlunoDestino)"
 
+## Como rodar
+
+Execute o pub primeiro através do comando python3;
+
+Em seguida execute o sub, para receber a mensagem publicada.
+
 ## A seguir um passo a passo de como os arquivos foram enviados para este repositorio
 
 - git init #inicia um repositorio local
