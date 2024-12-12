@@ -1,11 +1,13 @@
 ## Baixe os arquivos
 
 cd pasta/destino
+
 git clone https://github.com/VitorBermond/InteligentSpace/tree/master/aula1
 
 ## Construa a imagem Docker
 
 cd pasta/onde/o/dockerfile/esta
+
 docker build --tag=flaskboasvindas .
 
 ## Execute a imagem Docker
