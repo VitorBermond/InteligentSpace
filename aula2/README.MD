@@ -12,7 +12,7 @@ cd pasta/onde/os/arquivos/estao
 
 python3 publish.py
 
-ou
+# ou
 
 python3 publish_img.py
 
@@ -20,9 +20,9 @@ python3 publish_img.py
 
 python3 subscribe.py
 
-ou
+# ou
 
-subscribe_img.py
+python3 subscribe_img.py
 
 ## Confirme
 
