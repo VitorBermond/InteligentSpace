@@ -14,11 +14,11 @@ Antes de começar, você precisará ter o seguinte instalado:
 ## Explicação
 
 Esse repositório possui dois algoritmos que desempenham as seguintes funções:
- - pub_aula1: Esse algoritmo pode ser dividido em alguns passos:
+ - pub.py: Esse algoritmo pode ser dividido em alguns passos:
    - Solicita o usuário o ip para se conectar com um Broker RabbitMQ previamente ativo;
    - Cria um loop onde o usuário publica mensagens para outros usuários. O algoritmo solicita o nome do usuário destino e a mensagem a ser publicada. As mensagens serão armazenadas no tópico "Aluno.(NomeDoAlunoDestino)".;
 
-- sub_aula1: Esse algoritmo pode ser dividido em alguns passos:
+- sub.py: Esse algoritmo pode ser dividido em alguns passos:
    - Solicita o usuário o ip para se conectar com um Broker RabbitMQ previamente ativo;
    - Cria um loop onde o usuário consome mensagens de um tópico. O algoritmo solicita o nome do tópico. As mensagens serão consumidas do tópico "Aluno.(NomeDoAlunoDestino)"
 
